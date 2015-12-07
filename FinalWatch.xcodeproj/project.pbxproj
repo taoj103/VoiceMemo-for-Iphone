@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FA074A1C1517EC00299F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA07491C1517EC00299F8D /* AppDelegate.swift */; };
+		22FA074C1C1517EC00299F8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA074B1C1517EC00299F8D /* ViewController.swift */; };
+		22FA074F1C1517EC00299F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FA074D1C1517EC00299F8D /* Main.storyboard */; };
+		22FA07511C1517EC00299F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FA07501C1517EC00299F8D /* Assets.xcassets */; };
+		22FA07541C1517EC00299F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FA07521C1517EC00299F8D /* LaunchScreen.storyboard */; };
+		22FA075F1C1517EC00299F8D /* FinalWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA075E1C1517EC00299F8D /* FinalWatchTests.swift */; };
+		22FA076A1C1517EC00299F8D /* FinalWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA07691C1517EC00299F8D /* FinalWatchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22FA075B1C1517EC00299F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FA073E1C1517EC00299F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FA07451C1517EC00299F8D;
+			remoteInfo = FinalWatch;
+		};
+		22FA07661C1517EC00299F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FA073E1C1517EC00299F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FA07451C1517EC00299F8D;
+			remoteInfo = FinalWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22FA07461C1517EC00299F8D /* FinalWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FA07491C1517EC00299F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22FA074B1C1517EC00299F8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22FA074E1C1517EC00299F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FA07501C1517EC00299F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FA07531C1517EC00299F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FA07551C1517EC00299F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FA075A1C1517EC00299F8D /* FinalWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FA075E1C1517EC00299F8D /* FinalWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalWatchTests.swift; sourceTree = "<group>"; };
+		22FA07601C1517EC00299F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FA07651C1517EC00299F8D /* FinalWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FA07691C1517EC00299F8D /* FinalWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalWatchUITests.swift; sourceTree = "<group>"; };
+		22FA076B1C1517EC00299F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FA07431C1517EC00299F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FA07571C1517EC00299F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FA07621C1517EC00299F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FA073D1C1517EC00299F8D = {
+			isa = PBXGroup;
+			children = (
+				22FA07481C1517EC00299F8D /* FinalWatch */,
+				22FA075D1C1517EC00299F8D /* FinalWatchTests */,
+				22FA07681C1517EC00299F8D /* FinalWatchUITests */,
+				22FA07471C1517EC00299F8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FA07471C1517EC00299F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FA07461C1517EC00299F8D /* FinalWatch.app */,
+				22FA075A1C1517EC00299F8D /* FinalWatchTests.xctest */,
+				22FA07651C1517EC00299F8D /* FinalWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FA07481C1517EC00299F8D /* FinalWatch */ = {
+			isa = PBXGroup;
+			children = (
+				22FA07491C1517EC00299F8D /* AppDelegate.swift */,
+				22FA074B1C1517EC00299F8D /* ViewController.swift */,
+				22FA074D1C1517EC00299F8D /* Main.storyboard */,
+				22FA07501C1517EC00299F8D /* Assets.xcassets */,
+				22FA07521C1517EC00299F8D /* LaunchScreen.storyboard */,
+				22FA07551C1517EC00299F8D /* Info.plist */,
+			);
+			path = FinalWatch;
+			sourceTree = "<group>";
+		};
+		22FA075D1C1517EC00299F8D /* FinalWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				22FA075E1C1517EC00299F8D /* FinalWatchTests.swift */,
+				22FA07601C1517EC00299F8D /* Info.plist */,
+			);
+			path = FinalWatchTests;
+			sourceTree = "<group>";
+		};
+		22FA07681C1517EC00299F8D /* FinalWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22FA07691C1517EC00299F8D /* FinalWatchUITests.swift */,
+				22FA076B1C1517EC00299F8D /* Info.plist */,
+			);
+			path = FinalWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FA07451C1517EC00299F8D /* FinalWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FA076E1C1517EC00299F8D /* Build configuration list for PBXNativeTarget "FinalWatch" */;
+			buildPhases = (
+				22FA07421C1517EC00299F8D /* Sources */,
+				22FA07431C1517EC00299F8D /* Frameworks */,
+				22FA07441C1517EC00299F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalWatch;
+			productName = FinalWatch;
+			productReference = 22FA07461C1517EC00299F8D /* FinalWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22FA07591C1517EC00299F8D /* FinalWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FA07711C1517EC00299F8D /* Build configuration list for PBXNativeTarget "FinalWatchTests" */;
+			buildPhases = (
+				22FA07561C1517EC00299F8D /* Sources */,
+				22FA07571C1517EC00299F8D /* Frameworks */,
+				22FA07581C1517EC00299F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FA075C1C1517EC00299F8D /* PBXTargetDependency */,
+			);
+			name = FinalWatchTests;
+			productName = FinalWatchTests;
+			productReference = 22FA075A1C1517EC00299F8D /* FinalWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22FA07641C1517EC00299F8D /* FinalWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FA07741C1517EC00299F8D /* Build configuration list for PBXNativeTarget "FinalWatchUITests" */;
+			buildPhases = (
+				22FA07611C1517EC00299F8D /* Sources */,
+				22FA07621C1517EC00299F8D /* Frameworks */,
+				22FA07631C1517EC00299F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FA07671C1517EC00299F8D /* PBXTargetDependency */,
+			);
+			name = FinalWatchUITests;
+			productName = FinalWatchUITests;
+			productReference = 22FA07651C1517EC00299F8D /* FinalWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FA073E1C1517EC00299F8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					22FA07451C1517EC00299F8D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					22FA07591C1517EC00299F8D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 22FA07451C1517EC00299F8D;
+					};
+					22FA07641C1517EC00299F8D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 22FA07451C1517EC00299F8D;
+					};
+				};
+			};
+			buildConfigurationList = 22FA07411C1517EC00299F8D /* Build configuration list for PBXProject "FinalWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FA073D1C1517EC00299F8D;
+			productRefGroup = 22FA07471C1517EC00299F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FA07451C1517EC00299F8D /* FinalWatch */,
+				22FA07591C1517EC00299F8D /* FinalWatchTests */,
+				22FA07641C1517EC00299F8D /* FinalWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FA07441C1517EC00299F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA07541C1517EC00299F8D /* LaunchScreen.storyboard in Resources */,
+				22FA07511C1517EC00299F8D /* Assets.xcassets in Resources */,
+				22FA074F1C1517EC00299F8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FA07581C1517EC00299F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FA07631C1517EC00299F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FA07421C1517EC00299F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA074C1C1517EC00299F8D /* ViewController.swift in Sources */,
+				22FA074A1C1517EC00299F8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FA07561C1517EC00299F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA075F1C1517EC00299F8D /* FinalWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FA07611C1517EC00299F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA076A1C1517EC00299F8D /* FinalWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22FA075C1C1517EC00299F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FA07451C1517EC00299F8D /* FinalWatch */;
+			targetProxy = 22FA075B1C1517EC00299F8D /* PBXContainerItemProxy */;
+		};
+		22FA07671C1517EC00299F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FA07451C1517EC00299F8D /* FinalWatch */;
+			targetProxy = 22FA07661C1517EC00299F8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22FA074D1C1517EC00299F8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FA074E1C1517EC00299F8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FA07521C1517EC00299F8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FA07531C1517EC00299F8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FA076C1C1517EC00299F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22FA076D1C1517EC00299F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FA076F1C1517EC00299F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FinalWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FinalWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22FA07701C1517EC00299F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FinalWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FinalWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22FA07721C1517EC00299F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinalWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FinalWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalWatch.app/FinalWatch";
+			};
+			name = Debug;
+		};
+		22FA07731C1517EC00299F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinalWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FinalWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalWatch.app/FinalWatch";
+			};
+			name = Release;
+		};
+		22FA07751C1517EC00299F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FinalWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FinalWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FinalWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		22FA07761C1517EC00299F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FinalWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FinalWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FinalWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FA07411C1517EC00299F8D /* Build configuration list for PBXProject "FinalWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FA076C1C1517EC00299F8D /* Debug */,
+				22FA076D1C1517EC00299F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FA076E1C1517EC00299F8D /* Build configuration list for PBXNativeTarget "FinalWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FA076F1C1517EC00299F8D /* Debug */,
+				22FA07701C1517EC00299F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FA07711C1517EC00299F8D /* Build configuration list for PBXNativeTarget "FinalWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FA07721C1517EC00299F8D /* Debug */,
+				22FA07731C1517EC00299F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FA07741C1517EC00299F8D /* Build configuration list for PBXNativeTarget "FinalWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FA07751C1517EC00299F8D /* Debug */,
+				22FA07761C1517EC00299F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FA073E1C1517EC00299F8D /* Project object */;
+}
