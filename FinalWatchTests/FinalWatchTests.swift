@@ -2,7 +2,7 @@
 //  FinalWatchTests.swift
 //  FinalWatchTests
 //
-//  Created by wucai on 15/12/7.
+//  Created by Tony on 15/12/7.
 //  Copyright © 2015年 Tony. All rights reserved.
 //
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		226FBD241C1710120046AD20 /* VoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226FBD221C1710120046AD20 /* VoiceCell.swift */; };
+		226FBD251C1710120046AD20 /* VoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 226FBD231C1710120046AD20 /* VoiceCell.xib */; };
 		22FA074A1C1517EC00299F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA07491C1517EC00299F8D /* AppDelegate.swift */; };
 		22FA074C1C1517EC00299F8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA074B1C1517EC00299F8D /* ViewController.swift */; };
 		22FA074F1C1517EC00299F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FA074D1C1517EC00299F8D /* Main.storyboard */; };
@@ -14,6 +16,12 @@
 		22FA07541C1517EC00299F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FA07521C1517EC00299F8D /* LaunchScreen.storyboard */; };
 		22FA075F1C1517EC00299F8D /* FinalWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA075E1C1517EC00299F8D /* FinalWatchTests.swift */; };
 		22FA076A1C1517EC00299F8D /* FinalWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA07691C1517EC00299F8D /* FinalWatchUITests.swift */; };
+		22FA07781C15194A00299F8D /* listVoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA07771C15194A00299F8D /* listVoiceVC.swift */; };
+		22FA077A1C151B3F00299F8D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA07791C151B3F00299F8D /* AVFoundation.framework */; };
+		22FA077C1C151B4700299F8D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA077B1C151B4700299F8D /* libsqlite3.0.tbd */; };
+		22FA07801C151B6200299F8D /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA077E1C151B6200299F8D /* SQLiteDB.swift */; };
+		22FA07811C151B6200299F8D /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA077F1C151B6200299F8D /* String-Extras.swift */; };
+		22FA07831C151B6A00299F8D /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 22FA07821C151B6A00299F8D /* data.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		226FBD221C1710120046AD20 /* VoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceCell.swift; sourceTree = "<group>"; };
+		226FBD231C1710120046AD20 /* VoiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceCell.xib; sourceTree = "<group>"; };
 		22FA07461C1517EC00299F8D /* FinalWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FA07491C1517EC00299F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FA074B1C1517EC00299F8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,13 @@
 		22FA07651C1517EC00299F8D /* FinalWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FA07691C1517EC00299F8D /* FinalWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalWatchUITests.swift; sourceTree = "<group>"; };
 		22FA076B1C1517EC00299F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FA07771C15194A00299F8D /* listVoiceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listVoiceVC.swift; sourceTree = "<group>"; };
+		22FA07791C151B3F00299F8D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22FA077B1C151B4700299F8D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		22FA077E1C151B6200299F8D /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		22FA077F1C151B6200299F8D /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		22FA07821C151B6A00299F8D /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		22FA07841C151B8100299F8D /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FA077C1C151B4700299F8D /* libsqlite3.0.tbd in Frameworks */,
+				22FA077A1C151B3F00299F8D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +96,9 @@
 		22FA073D1C1517EC00299F8D = {
 			isa = PBXGroup;
 			children = (
+				22FA07841C151B8100299F8D /* Bridging-Header.h */,
+				22FA077B1C151B4700299F8D /* libsqlite3.0.tbd */,
+				22FA07791C151B3F00299F8D /* AVFoundation.framework */,
 				22FA07481C1517EC00299F8D /* FinalWatch */,
 				22FA075D1C1517EC00299F8D /* FinalWatchTests */,
 				22FA07681C1517EC00299F8D /* FinalWatchUITests */,
@@ -97,9 +119,13 @@
 		22FA07481C1517EC00299F8D /* FinalWatch */ = {
 			isa = PBXGroup;
 			children = (
+				22FA077D1C151B6200299F8D /* SQLiteDB */,
 				22FA07491C1517EC00299F8D /* AppDelegate.swift */,
 				22FA074B1C1517EC00299F8D /* ViewController.swift */,
+				22FA07771C15194A00299F8D /* listVoiceVC.swift */,
 				22FA074D1C1517EC00299F8D /* Main.storyboard */,
+				226FBD221C1710120046AD20 /* VoiceCell.swift */,
+				226FBD231C1710120046AD20 /* VoiceCell.xib */,
 				22FA07501C1517EC00299F8D /* Assets.xcassets */,
 				22FA07521C1517EC00299F8D /* LaunchScreen.storyboard */,
 				22FA07551C1517EC00299F8D /* Info.plist */,
@@ -123,6 +149,16 @@
 				22FA076B1C1517EC00299F8D /* Info.plist */,
 			);
 			path = FinalWatchUITests;
+			sourceTree = "<group>";
+		};
+		22FA077D1C151B6200299F8D /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				22FA07821C151B6A00299F8D /* data.db */,
+				22FA077E1C151B6200299F8D /* SQLiteDB.swift */,
+				22FA077F1C151B6200299F8D /* String-Extras.swift */,
+			);
+			path = SQLiteDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +229,7 @@
 				TargetAttributes = {
 					22FA07451C1517EC00299F8D = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = RHS54MNZHX;
 					};
 					22FA07591C1517EC00299F8D = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -204,7 +241,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 22FA07411C1517EC00299F8D /* Build configuration list for PBXProject "FinalWatch" */;
+			buildConfigurationList = 22FA07411C1517EC00299F8D /* Build configuration list for PBXProject "VoiceMemo For iphone" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,7 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226FBD251C1710120046AD20 /* VoiceCell.xib in Resources */,
 				22FA07541C1517EC00299F8D /* LaunchScreen.storyboard in Resources */,
+				22FA07831C151B6A00299F8D /* data.db in Resources */,
 				22FA07511C1517EC00299F8D /* Assets.xcassets in Resources */,
 				22FA074F1C1517EC00299F8D /* Main.storyboard in Resources */,
 			);
@@ -256,6 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226FBD241C1710120046AD20 /* VoiceCell.swift in Sources */,
+				22FA07811C151B6200299F8D /* String-Extras.swift in Sources */,
+				22FA07781C15194A00299F8D /* listVoiceVC.swift in Sources */,
+				22FA07801C151B6200299F8D /* SQLiteDB.swift in Sources */,
 				22FA074C1C1517EC00299F8D /* ViewController.swift in Sources */,
 				22FA074A1C1517EC00299F8D /* AppDelegate.swift in Sources */,
 			);
@@ -397,10 +440,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FinalWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Tony.FinalWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = "Parsons-School-of-Design.FinalWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -408,10 +453,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FinalWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Tony.FinalWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = "Parsons-School-of-Design.FinalWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -466,7 +513,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22FA07411C1517EC00299F8D /* Build configuration list for PBXProject "FinalWatch" */ = {
+		22FA07411C1517EC00299F8D /* Build configuration list for PBXProject "VoiceMemo For iphone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22FA076C1C1517EC00299F8D /* Debug */,
@@ -482,6 +529,7 @@
 				22FA07701C1517EC00299F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22FA07711C1517EC00299F8D /* Build configuration list for PBXNativeTarget "FinalWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +538,7 @@
 				22FA07731C1517EC00299F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22FA07741C1517EC00299F8D /* Build configuration list for PBXNativeTarget "FinalWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +547,7 @@
 				22FA07761C1517EC00299F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
